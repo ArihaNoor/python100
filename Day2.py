@@ -12,3 +12,18 @@ b = "Ariha"
 print(b)
 
 print(type(b))
+
+
+# Some built in data types in python 
+
+# Numeric Data -- Int, float, complex 
+# Text data -- Str 
+# Boolean data 
+# Sequenced Data -- list, tuple 
+# Mapped data -- dict (key value pairs)
+
+# list is collection of different data types
+# tuples are immutable but same like list 
+
+
+# In python everything is object of some class
