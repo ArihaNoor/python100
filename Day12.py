@@ -15,3 +15,8 @@ print(str[-3:-1])
 
 
 print(len(str))
+
+
+nm = "Harry"
+
+print(nm[-4:-2])
