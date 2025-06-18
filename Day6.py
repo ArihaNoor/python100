@@ -23,7 +23,5 @@ print(type(b))
 # Mapped data -- dict (key value pairs)
 
 # list is collection of different data types
-# tuples are immutable but same like list 
-
-
+# tuples are immutable but lists are mutable other than that these are almost same
 # In python everything is object of some class
