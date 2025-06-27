@@ -59,7 +59,7 @@ def team(**player):
         print(j)
     # print(player)
 
-#It will consider it as tuple
+#It will consider it as dictionary
 team(player1="Ariha", player2="Noor", player3="Jenifer")
 
 
