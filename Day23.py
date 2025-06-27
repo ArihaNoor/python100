@@ -17,3 +17,9 @@ list = [14,22,3,4,5,6,6]
 
 # print(list.count(6))
 
+
+# list.insert(2,189)
+
+print(list)
+
+#extend 
