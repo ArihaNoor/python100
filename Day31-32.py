@@ -25,7 +25,7 @@ new = set()
 
 #Union 
 
-a = {1,3,5,6,7}
+a = {1,3,5,6,7,4,8,9}
 b = {4,6,8,9}
 
 # it will show both sets values, except duplicated, and will not update the original sets 
@@ -59,11 +59,38 @@ b = {4,6,8,9}
 
 # difference will provide symmetric difference of 2 sets 
 
-print(" A: ", a)
-print(" B: ", b)
-print(a.difference(b))
-print(" A: ", a)
-print(" B: ", b)
-print(a.difference_update(b)) #this will remove the elements which are common in both sets 
-print(" A: ", a)
-print(" B: ", b)
+# print(" A: ", a)
+# print(" B: ", b)
+# print(a.difference(b))
+# print(" A: ", a)
+# print(" B: ", b)
+# print(a.difference_update(b)) #this will remove the elements which are common in both sets 
+# print(" A: ", a)
+# print(" B: ", b)
+
+
+# print(a.isdisjoint(b))
+
+# print(a.issuperset(b))
+
+# print(a.issuperset(b))
+
+
+# print(a)
+
+# a.discard(6)
+
+# print(a)
+
+# #If you try to remvoe some element which is not present in the set, remove will raise error, discard will not
+
+# a.remove(6)
+
+# print(a)
+
+
+#pop --- some random value will be poped out
+
+#del -- keyword its not a method, will delete the entire set
+
+#clear -- used to delete all the elements of the set, set will remain intact only elements will be removed 
